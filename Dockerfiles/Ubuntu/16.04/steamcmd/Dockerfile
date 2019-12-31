@@ -1,5 +1,5 @@
 # Base image
-FROM didstopia/base:ubuntu-16.04
+FROM alga/base-ubuntu:latest
 
 # Maintainer information
 LABEL maintainer="Didstopia <support@didstopia.com>"
