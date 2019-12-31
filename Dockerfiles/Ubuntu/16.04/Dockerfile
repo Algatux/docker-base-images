@@ -85,9 +85,6 @@ ENV TZ Etc/UTC
 ENV PGID 0
 ENV PUID 0
 
-# Include Readme and License with each image
-COPY README.md LICENSE.md /
-
 # Add base image initialization script
 ADD Scripts/entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
