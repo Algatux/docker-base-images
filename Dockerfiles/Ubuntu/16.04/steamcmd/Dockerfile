@@ -10,7 +10,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 # Install dependencies
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-    lib32gcc1 \
+    libgcc1 \
     libstdc++6 && \
     apt-get clean && \
     rm -rf \
